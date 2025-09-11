@@ -1,7 +1,8 @@
 const settings = require('../settings');
 const fs = require('fs');
 const path = require('path');
-const os = require ('os');
+const os = require('os');
+
 // Format uptime properly
 function formatUptime(seconds) {
     const days = Math.floor(seconds / (24 * 60 * 60));
@@ -20,6 +21,19 @@ function formatUptime(seconds) {
     return time.trim();
 }
 
+// Format RAM usage
+function formatRam(total, free) {
+    const used = (total - free) / (1024 * 1024 * 1024);
+    const totalGb = total / (1024 * 1024 * 1024);
+    const percent = ((used / totalGb) * 100).toFixed(1);
+    return `${used.toFixed(1)}GB / ${totalGb.toFixed(1)}GB (${percent}%)`;
+}
+
+// Count total commands
+function countCommands() {
+    return 133; // Replace with actual command count
+}
+
 // Get Asia/Kolkata Time
 function getKolkataTime() {
     return new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }));
@@ -31,7 +45,7 @@ function formatKolkataTime() {
 
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
-┌ ❏ *⌜ ❃ 𝐈𝐓𝐀𝐂𝐇𝐈 - 𝐀𝐈 ❃ ⌟* ❏
+ ❏ *⌜ ❃ 𝐈𝐓𝐀𝐂𝐇𝐈 - 𝐀𝐈 ❃ ⌟* ❏
 │
 ❃ Owner: ${settings.botOwner || 'Sourajit'}
 ❃ Prefix: .
@@ -42,7 +56,7 @@ async function helpCommand(sock, chatId, message) {
 ❃ Commands: 158
 ❃ Date: ${new Date().toLocaleDateString('en-GB')}
 ❃ Mode: ${settings.mode || 'Public'}
-└ ❏_________________________◆
+└ ❏_________________◆
 
 ┌ ❏ *⌜ GENERAL ⌟* ❏
 ❃ .help / .menu
@@ -64,7 +78,7 @@ async function helpCommand(sock, chatId, message) {
 ❃ .trt
 ❃ .ss
 ❃ .jid
-└ ❏
+└ ❏_______________◆
 
 ┌ ❏ *⌜ ADMIN ⌟* ❏
 ❃ .ban
@@ -251,7 +265,42 @@ async function helpCommand(sock, chatId, message) {
 > Powered by *Itachi - AI* ⚡
 `;
 
-    await sock.sendMessage(chatId, { text: helpMessage }, { quoted: message });
+    try {
+        const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
+
+        if (fs.existsSync(imagePath)) {
+            const imageBuffer = fs.readFileSync(imagePath);
+            await sock.sendMessage(chatId, {
+                image: imageBuffer,
+                caption: helpMessage,
+                contextInfo: {
+                    forwardingScore: 1,
+                    isForwarded: true,
+                    forwardedNewsletterMessageInfo: {
+                        newsletterJid: '120363421562914957@newsletter',
+                        newsletterName: '❦ ════ •⊰❂ ITACHI - AI ❂⊱• ════ ❦',
+                        serverMessageId: -1
+                    }
+                }
+            }, { quoted: message });
+        } else {
+            await sock.sendMessage(chatId, {
+                text: helpMessage,
+                contextInfo: {
+                    forwardingScore: 1,
+                    isForwarded: true,
+                    forwardedNewsletterMessageInfo: {
+                        newsletterJid: '1203634215629149578@newsletter',
+                        newsletterName: '❦ ════ •⊰❂ ITACHI - AI ❂⊱• ════ ❦',
+                        serverMessageId: -1
+                    }
+                }
+            }, { quoted: message });
+        }
+    } catch (error) {
+        console.error('Error in help command:', error);
+        await sock.sendMessage(chatId, { text: helpMessage }, { quoted: message });
+    }
 }
 
 module.exports = helpCommand;
