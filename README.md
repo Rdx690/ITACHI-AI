@@ -1,4 +1,4 @@
-# 𝐆𝐎𝐃𝐒𝐙𝐄𝐀𝐋 𝐗𝐌𝐃
+# 𝐈𝐓𝐀𝐂𝐇𝐈-𝐀𝐈
 # All Deployment Errors Fixed
 <div align="center">
   <a href="https://git.io/typing-svg"> 
@@ -9,7 +9,7 @@
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AiOfLautech/God-s-Zeal-Xmd/refs/heads/main/assets/bot_image.jpg" alt="𝐆𝐎𝐃𝐒𝐙𝐄𝐀𝐋 𝐗𝐌𝐃" height="300" style="border-radius:20px;box-shadow:0 0 25px #00ccff">
+  <img src="https://raw.githubusercontent.com/rdx690/ITACHI-AI/refs/heads/main/assets/bot_image.jpg" alt="𝐈𝐓𝐀𝐂𝐇𝐈-𝐀𝐈" height="300" style="border-radius:20px;box-shadow:0 0 25px #00ccff">
 </div>
 
 ---
@@ -19,7 +19,7 @@
 ### Step 1: Fork Repository
 
 <p align="center">
-  <a href="https://github.com/AiOfLautech/God-s-Zeal-Xmd/fork">
+  <a href="https://github.com/rdx690/ITACHI-AI/fork">
     <img src="https://img.shields.io/badge/-FORK%20REPO-00ccff?style=for-the-badge&logo=github&logoColor=white&labelColor=black" height="40" alt="Fork Badge"/>
   </a>
 </p>
@@ -29,7 +29,7 @@
 ### Step 2: Download & Host
 
 <p align="center">
-  <a href="https://github.com/AiOfLautech/God-s-Zeal-Xmd/archive/refs/heads/main.zip">
+  <a href="https://github.com/rdx690/ITACHI-AI/archive/refs/heads/main.zip">
     <img src="https://img.shields.io/badge/-DOWNLOAD%20ZIP-00ccff?style=for-the-badge&logo=github&logoColor=white&labelColor=black" height="40" alt="Download ZIP"/>
   </a>
 </p>
@@ -69,10 +69,10 @@
 ## 🔗 Connect With Us
 
 <p align="center">
-  <a href="https://t.me/aitoolshub01">
+  <a href="https://t.me/instargramuser21">
     <img src="https://img.shields.io/badge/-TELEGRAM%20CHANNEL-0088cc?style=for-the-badge&logo=telegram&logoColor=white" height="35" alt="Telegram"/>
   </a>
-  <a href="https://whatsapp.com/channel/0029Va90zAnIHO8Msp3A">
+  <a href="https://whatsapp.com/channel/0029VbBVg1T89inpO324342P">
     <img src="https://img.shields.io/badge/-WHATSAPP%20CHANNEL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" height="35" alt="WhatsApp"/>
   </a>
 </p>
@@ -83,8 +83,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/AiOfLautech/God-s-Zeal-Xmd.git
-cd God-s-Zeal-Xmd
+git clone https://github.com/rdx690/ITACHI-AI.git
+cd ITACHI-AI
 
 # Install dependencies
 npm install
@@ -111,8 +111,8 @@ Always comply with WhatsApp's policies and local laws.
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/AiOfLautech">
-        <img src="https://img.shields.io/badge/Godszeal-00ffff?style=for-the-badge&logo=github&logoColor=black" alt="godszeal">
+      <a href="https://github.com/rdx690">
+        <img src="https://img.shields.io/badge/ITACHI-AI-00ffff?style=for-the-badge&logo=github&logoColor=black" alt="itachi">
       </a>
     </td>
     <td align="center">
@@ -124,7 +124,7 @@ Always comply with WhatsApp's policies and local laws.
 </table>
 
 <p align="center"> 
-  <a href="https://github.com/AiOfLautech/God-s-Zeal-Xmd/star">
+  <a href="https://github.com/rdx690/ITACHI-AI/star">
     <img src="https://img.shields.io/badge/⭐_STAR_THIS_REPO_⭐-yellow?style=for-the-badge&logo=github" alt="Star Repo">
   </a>
 </p>
@@ -133,4 +133,4 @@ Always comply with WhatsApp's policies and local laws.
 
 ### 📜 License
 
-MIT © Godszeal
+MIT © SOURAJIT
