@@ -134,3 +134,4 @@ Always comply with WhatsApp's policies and local laws.
 ### 📜 License
 
 MIT © SOURAJIT
+Don't edit this without my permission. 
