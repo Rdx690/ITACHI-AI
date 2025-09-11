@@ -21,7 +21,7 @@ async function githubCommand(sock, chatId, message) {
     txt += `▸ 🍴 *Forks*: ${json.forks_count}\n`;
     txt += `▸ ⭐ *Stars*: ${json.stargazers_count}\n\n`;
     txt += `⚔️ *Powered by ITACHI-AI*\n`;
-    txt += `🩸 *GitHub Repository: rdx690/SOURAJIT-AI*`;
+    txt += `🩸 *GitHub Repository: rdx690/ITACHI-AI*`;
 
     // Use local asset image if available
     const imgPath = path.join(__dirname, '../assets/bot_image.jpg');
