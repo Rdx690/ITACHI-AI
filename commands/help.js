@@ -123,8 +123,8 @@ async function helpCommand(sock, chatId, message) {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363269950668068@newsletter',
-                        newsletterName: '❦ ════ •⊰❂ ITACHI - AI ❂⊱• ════ ❦',
+                        newsletterJid: '120363421562914957@newsletter',
+                        newsletterName: '❦ ITACHI-AI ❦',
                         serverMessageId: -1
                     }
                 }
@@ -136,8 +136,8 @@ async function helpCommand(sock, chatId, message) {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363269950668068@newsletter',
-                        newsletterName: '❦ ════ •⊰❂ ITACHI - AI ❂⊱• ════ ❦',
+                        newsletterJid: '120363421562914957@newsletter',
+                        newsletterName: '❦ iTACHI-AI ❦',
                         serverMessageId: -1
                     }
                 }
