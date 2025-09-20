@@ -25,7 +25,6 @@ async function playCommand(sock, chatId, message) {
         // Fetch from API
         const apiUrl = `https://apis.davidcyriltech.my.id/play?query=${encodeURIComponent(searchQuery)}`;
         const { data } = await axios.get(apiUrl, { timeout: 30000 });
-
         // Validate API response
         if (!data?.status || !data?.result) {
             return await sock.sendMessage(chatId, {
