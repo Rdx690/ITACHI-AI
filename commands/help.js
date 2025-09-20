@@ -45,8 +45,7 @@ function formatKolkataTime() {
 
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
- ❏ ☆《 𝐈𝐓𝐀𝐂𝐇𝐈-𝐀𝐈 𝐯𝟐 》☆ ❏
-│
+ ❏ ☆《 𝐈𝐓𝐀𝐂𝐇𝐈-𝐀𝐈 𝐯𝟐 》☆ ❏ 
 ❃ Owner: ${settings.botOwner || 'Sourajit'}
 ❃ Prefix: .
 ❃ User: ${message.pushName}
@@ -59,25 +58,25 @@ async function helpCommand(sock, chatId, message) {
 └ ❏_________________◆
 
 ┌ ❏ *⌜ GENERAL ⌟* ❏
-❃ .help / .menu
-❃ .ping
-❃ .alive
-❃ .tts
-❃ .owner
-❃ .joke
-❃ .quote
-❃ .fact
-❃ .weather
-❃ .news
-❃ .attp
-❃ .lyrics
-❃ .8ball
-❃ .groupinfo
-❃ .staff
-❃ .vv
-❃ .trt
-❃ .ss
-❃ .jid
+|➽ .help / .menu
+|➽ .ping
+|➽ .alive
+|➽ .tts
+|➽ .owner
+|➽ .joke
+|➽ .quote
+|➽ .fact
+|➽ .weather
+|➽ .news
+|➽ .attp
+|➽ .lyrics
+|➽ .8ball
+|➽ .groupinfo
+|➽ .staff
+|➽ .vv
+|➽ .trt
+|➽ .ss
+|➽ .jid
 └ ❏_______________◆
 
 ┌ ❏ *⌜ ADMIN ⌟* ❏
