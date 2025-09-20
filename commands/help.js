@@ -45,7 +45,7 @@ function formatKolkataTime() {
 
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
- ❏ *⌜ ❃ 𝐈𝐓𝐀𝐂𝐇𝐈 - 𝐀𝐈 ❃ ⌟* ❏
+ ❏ ☆《 𝐈𝐓𝐀𝐂𝐇𝐈-𝐀𝐈 𝐯𝟐 》☆ ❏
 │
 ❃ Owner: ${settings.botOwner || 'Sourajit'}
 ❃ Prefix: .
