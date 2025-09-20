@@ -78,7 +78,7 @@ async function videoCommand(sock, chatId, message) {
                 video: { url: videoDownloadUrl },
                 mimetype: 'video/mp4',
                 fileName: filename,
-                caption: `*${title}*\n\n> *_Downloaded by 𝐆𝐎𝐃𝐒𝐙𝐄𝐀𝐋 𝐗𝐌𝐃*`
+                caption: `*${title}*\n\n> *_Downloaded by ITACHI-AI*`
             }, { quoted: message });
             return;
         } catch (directSendErr) {
